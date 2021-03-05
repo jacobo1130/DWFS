@@ -1,94 +1,92 @@
 * {
-	font-family: "Lexend Mega", sans-serif;
+  font-family: "Lexend Mega", sans-serif;
 }
 header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 120px;
-	background: white;
-	border-bottom: 2px solid red;
-	.navBar {
-		display: flex;
-		justify-content: space-around;
-	}
-	.titles {
-		display: flex;
-		justify-content: center;
-        padding-right: 7%;
-        .logo{
-            max-width: 80px;
-            max-height: 80px;
-        }
-        
-	}
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background: white;
+  border-bottom: 2px solid red;
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+  }
+  .titles {
+    display: flex;
+    justify-content: center;
+    padding-right: 7%;
+    .logo {
+      max-width: 80px;
+      max-height: 80px;
+    }
+  }
 }
 main {
-	margin-top: 140px;
-    .container {
-        margin-top: 40px;
-        padding: 20px 15px;
+  margin-top: 140px;
+  .container {
+    margin-top: 40px;
+    padding: 20px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .left {
+      width: 15%;
+      padding: 2px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+      .leftContent {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
-        border: 3px solid gray;
-        .left {
-            width: 15%;
-            padding: 2px;
-            display: flex;
-            flex-direction: column;
-            border: 3px solid red;
-            box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-            -moz-box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-            .leftContent{
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
-                .iframe{
-                    iframe{
-                        width: 100%;
-                    }
-                }
-            }
+        justify-content: space-around;
+        .iframe {
+          iframe {
+            width: 100%;
+          }
         }
-        .center {
-            width: 60%;
-            padding: 2px;
-            display: flex;
-            flex-direction: column;
-            border: 3px solid blue;
-            box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-            -moz-box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-            .centerContent{
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
-            }
-        }
-        .right {
-            width: 15%;
-            padding: 2px;
-            display: flex;
-            flex-direction: column;
-            border: 3px solid yellow;
-            box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-            -moz-box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.75);
-        }
-        h2 {
-            display: flex;
-            flex-direction: column;
-            color: red;
-            text-align: center;
-            font-size: 24px;
-        }
+      }
     }
+    .center {
+      width: 60%;
+      padding: 2px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+      .centerContent {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+      }
+    }
+    .right {
+      width: 15%;
+      padding: 2px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+    }
+    h2 {
+      display: flex;
+      flex-direction: column;
+      color: red;
+      text-align: center;
+      font-size: 24px;
+    }
+  }
 }
-footer{
-    font-size: 2vmin;
-    text-align: center;
-    color: #448AFF;
-    clear: both;
+footer {
+  font-size: 2vmin;
+  text-align: center;
+  color: #448aff;
+  clear: both;
 }

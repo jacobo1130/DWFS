@@ -51,7 +51,6 @@ main .container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 3px solid gray;
 }
 
 main .container .left {
@@ -64,7 +63,7 @@ main .container .left {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 3px solid red;
+  border-radius: 10px;
   box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
@@ -96,7 +95,7 @@ main .container .center {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 3px solid blue;
+  border-radius: 10px;
   box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
@@ -124,7 +123,7 @@ main .container .right {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 3px solid yellow;
+  border-radius: 10px;
   box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
@@ -146,7 +145,7 @@ main .container h2 {
 footer {
   font-size: 2vmin;
   text-align: center;
-  color: #448AFF;
+  color: #448aff;
   clear: both;
 }
 /*# sourceMappingURL=style.css.map */
