@@ -11,7 +11,7 @@ header {
   border-bottom: 2px solid red;
 }
 
-header .nav {
+header .navBar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,18 +23,24 @@ header .titles {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 7%;
+}
+
+header .titles .logo {
+  max-width: 80px;
+  max-height: 80px;
 }
 
 main {
-  margin-top: 150px;
+  margin-top: 140px;
 }
 
-.container {
+main .container {
   margin-top: 40px;
-  padding: 40px 10px;
+  padding: 20px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,34 +48,89 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border: 3px solid gray;
 }
 
-.container .left {
-  width: 20%;
+main .container .left {
+  width: 15%;
+  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 3px solid red;
+  box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
 }
 
-.container .right {
-  width: 20%;
+main .container .left .leftContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 3px solid yellow;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.container .center {
-  width: 50%;
+main .container .left .leftContent .iframe iframe {
+  width: 100%;
+}
+
+main .container .center {
+  width: 60%;
+  padding: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 3px solid blue;
+  box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
 }
 
-.container h2 {
+main .container .center .centerContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .container .right {
+  width: 15%;
+  padding: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 3px solid yellow;
+  box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.75);
+}
+
+main .container h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,5 +141,12 @@ main {
   color: red;
   text-align: center;
   font-size: 24px;
+}
+
+footer {
+  font-size: 2vmin;
+  text-align: center;
+  color: #448AFF;
+  clear: both;
 }
 /*# sourceMappingURL=style.css.map */
