@@ -11,6 +11,10 @@ header {
   border-bottom: 2px solid red;
 }
 
+header .menu_mobile {
+  display: none;
+}
+
 header .navBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,5 +151,39 @@ footer {
   text-align: center;
   color: #448aff;
   clear: both;
+}
+
+@media screen and (max-width: 320px) {
+  nav .navBar {
+    display: none;
+  }
+  nav .menu_mobile {
+    display: inline-block;
+  }
+  nav .menu_mobile ul {
+    display: none;
+    background-color: #d4a8a8;
+  }
+  nav .menu_mobile input:checked ~ ul {
+    display: block;
+  }
+  nav .menu_mobile input {
+    display: none;
+  }
+  nav .menu_mobile label {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
