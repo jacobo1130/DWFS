@@ -117,6 +117,13 @@ main .container .center .centerContent {
       justify-content: space-around;
 }
 
+main .container .center .centerContent .contentspace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
 main .container .right {
   width: 15%;
   padding: 2px;
