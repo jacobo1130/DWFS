@@ -47,7 +47,7 @@ header .titles .logo {
 }
 
 main {
-  margin-top: 40px;
+  margin-top: 120px;
 }
 
 main .container {
@@ -126,22 +126,34 @@ main .container .center .centerContent {
 }
 
 main .container .center2 {
-  margin-top: 100px;
-  display: -ms-grid;
-  display: grid;
   border: 1px solid blue;
   width: 60%;
-  -ms-grid-rows: (1fr)[4];
+  -ms-grid-rows: (1fr)[1];
   -ms-grid-columns: (1fr)[1];
-      grid-template: repeat(4, 1fr)/repeat(1, 1fr);
+      grid-template: repeat(1, 1fr)/repeat(1, 1fr);
+}
+
+main .container .center2 p {
+  font-size: .5rem;
 }
 
 main .container .center2 .centerContent {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[4];
+  border: 1px solid #ff5e00;
+  -ms-grid-rows: (1fr)[1];
+  -ms-grid-columns: (1fr)[1];
+      grid-template: repeat(1, 1fr)/repeat(1, 1fr);
+}
+
+main .container .center2 .centerContent .contentCenter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
   -ms-grid-columns: (1fr)[2];
-      grid-template: repeat(4, 1fr)/repeat(2, 1fr);
+      grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  border: 1px solid #00ff62;
+  height: 300px;
 }
 
 main .container .right {
